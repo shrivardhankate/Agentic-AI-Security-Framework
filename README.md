@@ -6,13 +6,32 @@ A research-oriented Python framework designed to evaluate security risks in auto
 
 ## Research Publication
 
-**Paper Title:** A Security Assessment Framework for Autonomous AI Agents: Identifying and Evaluating Agentic AI Attack Surfaces
+This project is associated with the research paper:
 
-**Journal:** International Research Journal of Engineering and Technology (IRJET)
+**"A Security Assessment Framework for Autonomous AI Agents: Identifying and Evaluating Agentic AI Attack Surfaces"**
 
-**Publication:** October 2026
+**Publication Details:**
+- **Author:** Shrivardhan Bharat Kate
+- **Journal:** International Research Journal of Engineering and Technology (IRJET)
+- **Volume:** 13
+- **Issue:** 10
+- **Published:** October 2026
+- **e-ISSN:** 2395-0056
 
-This repository contains the implementation and experimental testing environment associated with the research.
+### Publication Certificate
+
+![IRJET Research Publication Certificate](docs/IRJET_Publication_Certificate.jpg)
+
+### Research Citation
+
+Kate, S. B., "A Security Assessment Framework for Autonomous AI Agents: Identifying and Evaluating Agentic AI Attack Surfaces," *International Research Journal of Engineering and Technology (IRJET)*, vol. 13, no. 10, October 2026.
+
+### About the Research
+
+This research investigates security challenges associated with autonomous AI agents, particularly their interactions with tools and external resources.
+
+The accompanying implementation provides a controlled environment for evaluating adversarial prompts, tool-execution security, and attack surfaces in agentic AI systems.
+
 
 ## Project Objectives
 
