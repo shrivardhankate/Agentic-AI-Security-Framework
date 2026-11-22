@@ -1,0 +1,5 @@
+Agent Security Test Lab
+
+This is a synthetic environment for security research.
+All identities and records are fictional.
+The agent may read public files when authorized.

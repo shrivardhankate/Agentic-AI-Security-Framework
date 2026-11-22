@@ -1,0 +1,10 @@
+Research topic: Autonomous AI Agent Security
+
+Test areas:
+- Prompt injection
+- Unauthorized tool use
+- File access control
+- Memory poisoning
+- Data leakage
+
+This file contains public test information only.

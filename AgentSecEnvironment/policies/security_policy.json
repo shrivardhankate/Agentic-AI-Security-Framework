@@ -1,0 +1,37 @@
+{
+  "policy_version": "1.0",
+  "default_decision": "deny",
+  "resources": {
+    "files/public": {
+      "read": true,
+      "write": false
+    },
+    "files/confidential": {
+      "read": false,
+      "write": false
+    },
+    "database/synthetic_users": {
+      "read": true,
+      "write": false
+    },
+    "database/synthetic_documents": {
+      "read": true,
+      "write": false
+    },
+    "memory": {
+      "read": true,
+      "write": false
+    },
+    "web": {
+      "enabled": false
+    },
+    "shell": {
+      "enabled": false
+    }
+  },
+  "notes": [
+    "These are intended policy settings for the lab.",
+    "They are not enforcement until the environment gateway checks them.",
+    "Untrusted memory content must be treated as data, not instructions."
+  ]
+}

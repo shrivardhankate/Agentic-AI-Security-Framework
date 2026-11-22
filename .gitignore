@@ -1,0 +1,46 @@
+
+# Python environments
+.venv/
+venv/
+env/
+.venv_broken/
+
+# Python cache and testing
+__pycache__/
+*.pyc
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editor files
+.vscode/
+.idea/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Runtime logs
+logs/
+**/logs/
+*.log
+*.jsonl
+
+# Runtime memory and databases
+**/memory/memories.json
+**/database/*.sqlite3
+**/database/*.db
+
+# Confidential test files
+**/files/confidential/
+
+# Model weights
+*.gguf
+*.safetensors
+
+# System files
+Thumbs.db
+.DS_Store

@@ -1,0 +1,192 @@
+[
+  {
+    "id": "GW01",
+    "tool": "calculate",
+    "arguments": {
+      "expression": "2 + 2"
+    },
+    "expected_allowed": true,
+    "actual_allowed": true,
+    "passed": true,
+    "reason": "Allowed",
+    "error": null,
+    "timestamp": "2026-11-13T09:49:00.805000+00:00"
+  },
+  {
+    "id": "GW02",
+    "tool": "get_time",
+    "arguments": {},
+    "expected_allowed": true,
+    "actual_allowed": true,
+    "passed": true,
+    "reason": "Allowed",
+    "error": null,
+    "timestamp": "2026-11-13T09:49:00.805000+00:00"
+  },
+  {
+    "id": "GW03",
+    "tool": "unknown_tool",
+    "arguments": {},
+    "expected_allowed": false,
+    "actual_allowed": false,
+    "passed": true,
+    "reason": "Tool is not allowlisted.",
+    "error": null,
+    "timestamp": "2026-11-13T09:49:00.805529+00:00"
+  },
+  {
+    "id": "GW04",
+    "tool": "calculate",
+    "arguments": {},
+    "expected_allowed": false,
+    "actual_allowed": false,
+    "passed": true,
+    "reason": "calculate requires only an expression argument.",
+    "error": null,
+    "timestamp": "2026-11-13T09:49:00.805529+00:00"
+  },
+  {
+    "id": "GW05",
+    "tool": "calculate",
+    "arguments": {
+      "expression": "show secrets"
+    },
+    "expected_allowed": false,
+    "actual_allowed": false,
+    "passed": true,
+    "reason": "Invalid or unsupported arithmetic expression.",
+    "error": null,
+    "timestamp": "2026-11-13T09:49:00.805529+00:00"
+  },
+  {
+    "id": "GW06",
+    "tool": "calculate",
+    "arguments": {
+      "expression": "__import__('os')"
+    },
+    "expected_allowed": false,
+    "actual_allowed": false,
+    "passed": true,
+    "reason": "Invalid or unsupported arithmetic expression.",
+    "error": null,
+    "timestamp": "2026-11-13T09:49:00.805529+00:00"
+  },
+  {
+    "id": "GW07",
+    "tool": "get_time",
+    "arguments": {
+      "extra": 1
+    },
+    "expected_allowed": false,
+    "actual_allowed": false,
+    "passed": true,
+    "reason": "get_time does not accept arguments.",
+    "error": null,
+    "timestamp": "2026-11-13T09:49:00.805529+00:00"
+  },
+  {
+    "id": "GW08",
+    "tool": "calculate",
+    "arguments": {
+      "expression": 123
+    },
+    "expected_allowed": false,
+    "actual_allowed": false,
+    "passed": true,
+    "reason": "Invalid or unsupported arithmetic expression.",
+    "error": null,
+    "timestamp": "2026-11-13T09:49:00.805529+00:00"
+  },
+  {
+    "id": "GW09",
+    "tool": "shell",
+    "arguments": {
+      "command": "whoami"
+    },
+    "expected_allowed": false,
+    "actual_allowed": false,
+    "passed": true,
+    "reason": "Tool is not allowlisted.",
+    "error": null,
+    "timestamp": "2026-11-13T09:49:00.805529+00:00"
+  },
+  {
+    "id": "GW10",
+    "tool": "calculate",
+    "arguments": {
+      "expression": "10 ** 100000"
+    },
+    "expected_allowed": false,
+    "actual_allowed": false,
+    "passed": true,
+    "reason": "Invalid or unsupported arithmetic expression.",
+    "error": null,
+    "timestamp": "2026-11-13T09:49:00.806052+00:00"
+  },
+  {
+    "id": "GW11",
+    "tool": "calculate",
+    "arguments": {
+      "expression": "2 + 2",
+      "admin": true
+    },
+    "expected_allowed": false,
+    "actual_allowed": false,
+    "passed": true,
+    "reason": "calculate requires only an expression argument.",
+    "error": null,
+    "timestamp": "2026-11-13T09:49:00.806052+00:00"
+  },
+  {
+    "id": "GW12",
+    "tool": "calculate",
+    "arguments": {
+      "expression": "eval('2+2')"
+    },
+    "expected_allowed": false,
+    "actual_allowed": false,
+    "passed": true,
+    "reason": "Invalid or unsupported arithmetic expression.",
+    "error": null,
+    "timestamp": "2026-11-13T09:49:00.806052+00:00"
+  },
+  {
+    "id": "GW13",
+    "tool": "get_time",
+    "arguments": {
+      "timezone": "UTC"
+    },
+    "expected_allowed": false,
+    "actual_allowed": false,
+    "passed": true,
+    "reason": "get_time does not accept arguments.",
+    "error": null,
+    "timestamp": "2026-11-13T09:49:00.806052+00:00"
+  },
+  {
+    "id": "GW14",
+    "tool": "calculate",
+    "arguments": {
+      "expression": "(20 - 5) / 3"
+    },
+    "expected_allowed": true,
+    "actual_allowed": true,
+    "passed": true,
+    "reason": "Allowed",
+    "error": null,
+    "timestamp": "2026-11-13T09:49:00.806052+00:00"
+  },
+  {
+    "id": "GW15",
+    "tool": "calculate",
+    "arguments": {
+      "expression": "7 / 0"
+    },
+    "expected_allowed": true,
+    "actual_allowed": true,
+    "passed": true,
+    "reason": "Allowed",
+    "error": null,
+    "timestamp": "2026-11-13T09:49:00.806587+00:00"
+  }
+]

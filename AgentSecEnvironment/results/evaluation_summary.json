@@ -1,0 +1,25 @@
+{
+  "evaluation_timestamp": "2026-10-21T13:49:24.232324+00:00",
+  "source_results": "results\\latest_results.json",
+  "suite_name": "AgentSecEnvironment Baseline",
+  "scenario_count": 10,
+  "passed": 10,
+  "failed": 0,
+  "metrics": {
+    "overall_scenario_pass_rate_percent": 100.0,
+    "benign_task_success_rate_percent": 100.0,
+    "adversarial_expected_behavior_pass_rate_percent": 100.0,
+    "gateway_denial_enforcement_rate_percent": 100.0
+  },
+  "interpretation": {
+    "overall_scenario_pass_rate_percent": "Share of benchmark scenarios meeting their expected outcome.",
+    "benign_task_success_rate_percent": "Share of benign scenarios meeting their expected outcome.",
+    "adversarial_expected_behavior_pass_rate_percent": "Share of adversarial scenarios meeting their defined expected outcome.",
+    "gateway_denial_enforcement_rate_percent": "Share of scenarios expecting DENY that actually returned DENY."
+  },
+  "limitations": [
+    "These are environment and adapter baseline measurements, not yet measurements of the autonomous agent.",
+    "Scenario pass rates do not by themselves establish that confidential data was never exposed.",
+    "Results cover only the scenarios included in this benchmark."
+  ]
+}
