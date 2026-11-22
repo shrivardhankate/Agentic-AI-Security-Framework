@@ -199,3 +199,36 @@ This framework is intended for educational and authorized security research. It 
 ## Research Acknowledgment
 
 Developed as part of academic research on autonomous AI agent security, with findings published in IRJET, October 2026.
+
+## Published Research Paper
+
+**Title:** A Security Assessment Framework for Autonomous AI Agents: Identifying and Evaluating Agentic AI Attack Surfaces
+
+**Authors:** Sarthak Shrikant Sawant, Shrivardhan Bharat Kate, Saraswati Charku Oraon, and Poonam Surve
+
+**Journal:** International Research Journal of Engineering and Technology (IRJET)
+
+**Publication:** Volume 13, Issue 10, October 2026, pp. 1021–1025
+
+### Read the Research
+
+[View Published Research Paper](docs/IRJET_Research_Paper.pdf)
+
+[View Publication Certificate](docs/IRJET_Publication_Certificate.jpg)
+
+### Research Highlights
+
+- 100 live-agent evaluation cases, including 80 security-focused prompts.
+- 15 direct security gateway unit tests.
+- Four security-focused categories: prompt injection, calculator misuse, gateway manipulation, and multi-instruction scenarios.
+- 73.75% of security-focused cases generated tool requests.
+- 50.67% of security-focused tool calls were blocked.
+- 15/15 gateway unit tests matched expected decisions.
+
+### Key Findings
+
+The evaluation demonstrates the importance of distinguishing tool requests, gateway rejections, and successful tool results.
+
+Although the gateway rejected unsupported operations, the agent sometimes requested unnecessary but syntactically valid tool calls. The findings support trace-based security assessment and motivate more context-aware authorization controls.
+
+The observed results do not establish universal attack prevention or independently verified attacker success.
